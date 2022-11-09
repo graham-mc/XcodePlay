@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		BF234C64291C26E1007F784A /* SwipingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF234C63291C26E1007F784A /* SwipingViewController.swift */; };
+		BF234C68291C2809007F784A /* DynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF234C66291C2809007F784A /* DynamicTableViewController.swift */; };
+		BF234C69291C2809007F784A /* DynamicTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF234C67291C2809007F784A /* DynamicTableViewController.xib */; };
+		BF234C6C291C318E007F784A /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF234C6A291C318E007F784A /* TestTableViewCell.swift */; };
+		BF234C6D291C318E007F784A /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF234C6B291C318E007F784A /* TestTableViewCell.xib */; };
+		BF234C6F291C3B04007F784A /* BoxScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF234C6E291C3B04007F784A /* BoxScrollViewController.swift */; };
 		BF3E7695291AF083009140C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E7694291AF083009140C5 /* AppDelegate.swift */; };
 		BF3E7697291AF083009140C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E7696291AF083009140C5 /* SceneDelegate.swift */; };
 		BF3E769E291AF084009140C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3E769D291AF084009140C5 /* Assets.xcassets */; };
@@ -36,6 +41,11 @@
 
 /* Begin PBXFileReference section */
 		BF234C63291C26E1007F784A /* SwipingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingViewController.swift; sourceTree = "<group>"; };
+		BF234C66291C2809007F784A /* DynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewController.swift; sourceTree = "<group>"; };
+		BF234C67291C2809007F784A /* DynamicTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicTableViewController.xib; sourceTree = "<group>"; };
+		BF234C6A291C318E007F784A /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		BF234C6B291C318E007F784A /* TestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
+		BF234C6E291C3B04007F784A /* BoxScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxScrollViewController.swift; sourceTree = "<group>"; };
 		BF3E7691291AF083009140C5 /* XcodePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3E7694291AF083009140C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF3E7696291AF083009140C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				BF234C63291C26E1007F784A /* SwipingViewController.swift */,
+				BF234C66291C2809007F784A /* DynamicTableViewController.swift */,
+				BF234C67291C2809007F784A /* DynamicTableViewController.xib */,
+				BF234C6E291C3B04007F784A /* BoxScrollViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -111,6 +124,8 @@
 				BF3E769D291AF084009140C5 /* Assets.xcassets */,
 				BF3E769F291AF084009140C5 /* LaunchScreen.storyboard */,
 				BF3E76A2291AF084009140C5 /* Info.plist */,
+				BF234C6A291C318E007F784A /* TestTableViewCell.swift */,
+				BF234C6B291C318E007F784A /* TestTableViewCell.xib */,
 			);
 			path = XcodePlay;
 			sourceTree = "<group>";
@@ -237,6 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3E76A1291AF084009140C5 /* LaunchScreen.storyboard in Resources */,
+				BF234C6D291C318E007F784A /* TestTableViewCell.xib in Resources */,
+				BF234C69291C2809007F784A /* DynamicTableViewController.xib in Resources */,
 				BF3E769E291AF084009140C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3E7695291AF083009140C5 /* AppDelegate.swift in Sources */,
+				BF234C6F291C3B04007F784A /* BoxScrollViewController.swift in Sources */,
 				BF234C64291C26E1007F784A /* SwipingViewController.swift in Sources */,
+				BF234C68291C2809007F784A /* DynamicTableViewController.swift in Sources */,
 				BF3E7697291AF083009140C5 /* SceneDelegate.swift in Sources */,
+				BF234C6C291C318E007F784A /* TestTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
