@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BF234C64291C26E1007F784A /* SwipingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF234C63291C26E1007F784A /* SwipingViewController.swift */; };
 		BF234C68291C2809007F784A /* DynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF234C66291C2809007F784A /* DynamicTableViewController.swift */; };
-		BF234C69291C2809007F784A /* DynamicTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF234C67291C2809007F784A /* DynamicTableViewController.xib */; };
 		BF234C6C291C318E007F784A /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF234C6A291C318E007F784A /* TestTableViewCell.swift */; };
 		BF234C6D291C318E007F784A /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF234C6B291C318E007F784A /* TestTableViewCell.xib */; };
 		BF234C6F291C3B04007F784A /* BoxScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF234C6E291C3B04007F784A /* BoxScrollViewController.swift */; };
@@ -42,7 +41,6 @@
 /* Begin PBXFileReference section */
 		BF234C63291C26E1007F784A /* SwipingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingViewController.swift; sourceTree = "<group>"; };
 		BF234C66291C2809007F784A /* DynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewController.swift; sourceTree = "<group>"; };
-		BF234C67291C2809007F784A /* DynamicTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicTableViewController.xib; sourceTree = "<group>"; };
 		BF234C6A291C318E007F784A /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 		BF234C6B291C318E007F784A /* TestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
 		BF234C6E291C3B04007F784A /* BoxScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxScrollViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 			children = (
 				BF234C63291C26E1007F784A /* SwipingViewController.swift */,
 				BF234C66291C2809007F784A /* DynamicTableViewController.swift */,
-				BF234C67291C2809007F784A /* DynamicTableViewController.xib */,
 				BF234C6E291C3B04007F784A /* BoxScrollViewController.swift */,
 			);
 			path = "View Controllers";
@@ -253,7 +250,6 @@
 			files = (
 				BF3E76A1291AF084009140C5 /* LaunchScreen.storyboard in Resources */,
 				BF234C6D291C318E007F784A /* TestTableViewCell.xib in Resources */,
-				BF234C69291C2809007F784A /* DynamicTableViewController.xib in Resources */,
 				BF3E769E291AF084009140C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
