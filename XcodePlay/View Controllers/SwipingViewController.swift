@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
+//  SwipingViewController.swift
 //  XcodePlay
 //
-//  Created by Graham on 08/11/2022.
+//  Created by Graham on 09/11/2022.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SwipingViewController: UIViewController {
     private var contentView = UIView()
     private var topView = UIView()
     private var bottomView = UIView()
@@ -23,6 +23,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         contentView.backgroundColor = .gray
         view.addSubview(contentView)
         topView.backgroundColor = .systemTeal
@@ -61,7 +62,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController {
+extension SwipingViewController {
     @objc
     private func swipeUp() {
         contentViewTopConstraint?.constant = -viewOffsetConstant
@@ -80,3 +81,4 @@ extension ViewController {
         }
     }
 }
+
