@@ -71,8 +71,8 @@ class DynamicTableViewCell: UITableViewCell {
 
         boxView.translatesAutoresizingMaskIntoConstraints = false
         boxView.leadingAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.leadingAnchor, constant: 20).isActive = true
-        boxView.topAnchor.constraint(greaterThanOrEqualTo: contentView.topAnchor, constant: 10).isActive = true
-        boxView.bottomAnchor.constraint(lessThanOrEqualTo: contentView.safeAreaLayoutGuide.bottomAnchor, constant: -10).isActive = true
+        boxView.topAnchor.constraint(greaterThanOrEqualTo: contentView.topAnchor, constant: 20).isActive = true
+        boxView.bottomAnchor.constraint(lessThanOrEqualTo: contentView.safeAreaLayoutGuide.bottomAnchor, constant: -20).isActive = true
         boxView.centerYAnchor.constraint(equalTo: bigLabel.centerYAnchor).isActive = true
         boxView.heightAnchor.constraint(equalToConstant: 80).isActive = true
         boxView.widthAnchor.constraint(equalToConstant: 80).isActive = true
