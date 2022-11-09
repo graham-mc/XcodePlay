@@ -34,6 +34,13 @@ extension DynamicTableViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let dynamicCell = tableView.dequeueReusableCell(withIdentifier: DynamicTableViewCell.identifier, for: indexPath) as? DynamicTableViewCell else { return UITableViewCell() }
+        if indexPath.row % 2 == 0 {
+            dynamicCell.boxView.backgroundColor = .systemOrange
+            dynamicCell.bigLabel.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu sem integer."
+        } else {
+            dynamicCell.boxView.backgroundColor = .systemPink
+            dynamicCell.bigLabel.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
         return dynamicCell
     }
 }
@@ -60,11 +67,9 @@ class DynamicTableViewCell: UITableViewCell {
     }
 
     private func setupCell() {
-        boxView.backgroundColor = .systemOrange
         contentView.addSubview(boxView)
 
         bigLabel.numberOfLines = 0
-        bigLabel.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu sem integer."
         bigLabel.font = .systemFont(ofSize: 20)
         contentView.addSubview(bigLabel)
 
