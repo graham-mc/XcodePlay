@@ -18,7 +18,6 @@ class DynamicTableViewController: UIViewController {
         dynamicTableView.delegate = self
         dynamicTableView.register(DynamicTableViewCell.self, forCellReuseIdentifier: DynamicTableViewCell.identifier)
         dynamicTableView.tableFooterView = UIView()
-        dynamicTableView.separatorStyle = .none
         view.addSubview(dynamicTableView)
 
         dynamicTableView.translatesAutoresizingMaskIntoConstraints = false
